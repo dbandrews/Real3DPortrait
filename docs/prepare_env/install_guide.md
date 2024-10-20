@@ -6,6 +6,12 @@ This guide is about building a python environment for Real3D-Portrait with Conda
 The following installation process is verified in A100/V100 + CUDA11.7.
 
 
+# 0. To Just Run Inference App:
+
+```
+conda env create -f inference_env.yml 
+```
+
 # 1. Install CUDA
  We recommend to install CUDA `11.7` (which is verified in various types of GPUs), but other CUDA versions (such as `10.2`, `12.x`) may also work well. 
 
